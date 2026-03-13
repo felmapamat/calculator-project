@@ -4,6 +4,7 @@ document.getElementById("display").value += value;
 
 function calculate(){
 let display = document.getElementById("display");
+
 try{
 display.value = eval(display.value);
 }
@@ -17,9 +18,9 @@ document.getElementById("display").value = "";
 }
 
 function developer(){
-alert("Developer: Your Name\nStudent ID: 123456\nCourse: Web Development");
+alert("Developer: Felma Pamat");
 }
 
 function application(){
-alert("Application: Standard Web Calculator\nVersion: 1.0\nFunctions: + - * /");
+alert("Application: Standard Calculator\nVersion: 1.0\nTechnology: HTML, CSS, JavaScript");
 }
